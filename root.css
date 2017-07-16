@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*! root.css 0.1.0 | MIT License | davidringsdorf.de */
+
+/* global `box-sizing` */
+:root {
+  box-sizing: border-box;
+}
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+/* force scrollbar */
+:root {
+  overflow-y: scroll;
+}
+
+/* --------- */
+
+/* define `rem` */
+:root {
+  font-size: 1.25em;
+}
+/*
+@media (min-width: 45em){
+  :root {
+    font-size: 1.5em;
+  }
+}
+*/
+
+/* basic `font-size` */
+:root > * {
+  font-size: .8rem;
+}
+
+/* define vertical rhythm ( ~ baseline grid ) */
+:root {
+  line-height: 1rem;
+}
